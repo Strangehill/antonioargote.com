@@ -118,6 +118,29 @@ dl, dd, ol, ul, figure {
         cursor: pointer;
         color: rgb(64, 96, 128);
     }
+    @media only screen and (max-device-width: 600px) {
+        input[type="checkbox"]:checked + label form {
+            display:inline-block;
+            font-size: 1.4em;
+        }
+        input[type="text"], input[type="email"] {
+            width: 80%;
+        }
+        input[type="text"], input[type="email"], textarea {
+            font-size: 1.6em;
+        }
+        textarea {
+            width: 80%;
+            font-size: 1em;
+        }
+        input[type="submit"] {
+            width: 50%;
+            border: 3px solid #aaccff;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 0.2em;
+        }
+    }
   </style>
 </head>
 <body>
