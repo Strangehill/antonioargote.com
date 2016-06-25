@@ -1,2 +1,2 @@
 # antonioargote.com
-Antonio Argote --- Web Consultant
+Antonio Argote --- Web Management
