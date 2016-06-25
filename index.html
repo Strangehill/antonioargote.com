@@ -2,70 +2,68 @@
 <html lang="en">
 <head>
   <link href='https://fonts.googleapis.com/css?family=Changa' rel='stylesheet' type='text/css'>
-  <!-- google fonts I like:  
-	  Inconsolata, 
-	  Cormorant Unicase (this one might not have less than and greater than)
+  <!-- google fonts I like:
+        Inconsolata,
+        Cormorant Unicase (this one might not have less than and greater than)
   -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Antonio Argote Bertely --- Strangehill</title>
   <style>
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-      html {
-	height: 100%;
-      }
-      body {
-	max-height: 100%;
-	margin: 0;
+    body, h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        height: 100%;
+    }
+    body {
+        max-height: 100%;
+        margin: 0;
         background-color: rgb(225, 230, 52);
-	background-image: repeating-radial-gradient(
-		circle,
-		rgb(215, 255, 52),
-		rgb(235, 210, 32),
-		rgb(245,159,0)
-		);
+        background-image: repeating-radial-gradient(
+            circle,
+            rgb(215, 255, 52),
+            rgb(235, 210, 32),
+            rgb(245,159,0)
+            );
         color: rgb(0, 0, 213);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         text-align: center;
         font-family: 'Changa', ‘Courier New’, Courier, monospace;
         margin-top: 25vh;
-      }
-      h1 {
+    }
+    h1 {
         font-size: 3rem;
-      }
-      h2 {
+    }
+    h2 {
         font-size: 2rem;
-      }
-      h3 {
+    }
+    h3 {
         font-size: 1.5rem;
-      }
-      a {
+    }
+    a {
         color: inherit;
         text-decoration: none;
-      }
-      .btn {
-	display: inline-block;
-	margin-bottom: 1rem;
-	padding: 1rem 1.4rem 1rem 1.4rem;
-	background-color: rgba(255, 255, 255, 0.2);
-	border-color: rgba(0, 0, 0, 0.2);
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 0.9rem;
-	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-      }
+    }
+    .btn {
+        display: inline-block;
+        margin-bottom: 1rem;
+        padding: 1rem 1.4rem 1rem 1.4rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(0, 0, 0, 0.2);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 0.9rem;
+        transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    }
 
-      .btn:hover {
-	background-color: rgba(0, 0, 0, 0.08);
-	text-decoration: none;
-	border-color: rgba(255, 255, 255, 0.3);
-      }
+    .btn:hover {
+        background-color: rgba(0, 0, 0, 0.08);
+        text-decoration: none;
+        border-color: rgba(255, 255, 255, 0.3);
+    }
     .twitter {
     }
     .twitter-icon, .notebook, .envelope {
@@ -114,7 +112,7 @@ dl, dd, ol, ul, figure {
         border: 3px solid #aaccff;
         background-color: rgba(128, 192, 255, 0.2);
         font-size: 2em;
-        border-radius: 0.5em;
+        border-radius: 0.8em;
         cursor: pointer;
         color: rgb(64, 96, 128);
     }
@@ -131,14 +129,12 @@ dl, dd, ol, ul, figure {
         }
         textarea {
             width: 80%;
-            font-size: 1em;
+            font-size: 0.8em;
         }
         input[type="submit"] {
             width: 50%;
-            border: 3px solid #aaccff;
             margin-left: auto;
             margin-right: auto;
-            border-radius: 0.2em;
         }
     }
   </style>
@@ -288,18 +284,25 @@ dl, dd, ol, ul, figure {
       <path d="m226.415,213.671h59.754c4.142,0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-59.754c-28.813,0-52.254-23.441-52.254-52.254v-2.213c0-28.813 23.441-52.254 52.254-52.254s52.254,23.441 52.254,52.254v5.533c0,6.237-5.074,11.312-11.312,11.312s-11.312-5.074-11.312-11.312v-10.512c0-17.864-14.533-32.398-32.397-32.398s-32.397,14.533-32.397,32.398c0,17.864 14.533,32.397 32.397,32.397 8.169,0 15.636-3.045 21.34-8.052 4.644,7.483 12.932,12.478 22.369,12.478 14.508,0 26.312-11.803 26.312-26.312v-5.533c0-37.084-30.17-67.254-67.254-67.254s-67.254,30.17-67.254,67.254v2.213c5.68434e-14,37.085 30.17,67.255 67.254,67.255zm-2.767-57.049c-9.593,0-17.397-7.804-17.397-17.397s7.805-17.398 17.397-17.398 17.397,7.805 17.397,17.398-7.804,17.397-17.397,17.397z"/>
     </g>
   </svg>
-  <!--
-    msg
-  -->
   </span>
   <br/>
     <form action="https://formspree.io/info@antarg.co" method="POST">
-      What's your name? <input type="text" name="name">
-      What's your email address? <input type="email" name="_replyto">
-      Tell me about your project. <textarea placeholder="
-      What do you need?
-      When do you need it for?
-      What is your budget?" name="project"></textarea>
+      <label for="whoYouAre">
+        What's your name?
+      </label>
+      <input type="text" id="whoYouAre" name="name">
+      <label for="yourEmail">
+        What's your email address?
+      </label>
+      <input type="email" id="yourEmail" name="_replyto">
+      <label for="whatYouHaveInMind">
+        What do you have in mind?
+      </label>
+      <textarea id="whatYouHaveInMind" placeholder="
+      What are we making?
+      How much time do we have?
+      What is our budget?"
+      name="project"></textarea>
       <input type="submit" value="Send">
     </form>
   </label>
